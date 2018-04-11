@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>37.Reverse 3-digit Integer</title>
+</head>
+
+<body>
+    <script>
+        /**
+         * @param number: A 3-digit number.
+         * @return: Reversed number.
+         */
+        const reverseInteger = function (number) {
+            return Number(number.toString().split('').reverse().join(''));
+        }
+        console.log('123 - ' + reverseInteger(123));
+    </script>
+</body>
+
+</html>
